@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Niloufar Fuladi Drawings</title>
+  <meta name="description" content="the potfolio and drawings of niloufar fuladi">
+  <meta name="keywords" content="niloufar, fuladi">
+  <meta name="author" content="Niloufar Fuladi">
+  <link rel="stylesheet" href="./drawing.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+  <div class="container">
+    <div class="my-header">
+      <div class="logo">
+        <h1><a href="./index.html">Niloufar Fuladi</a></h1>
+      </div>
+
+      <div class="menu">
+
+        <ul class="menu-list" t>
+          <a class="menu-link" href="./index.html">Home</a>
+          <a class="menu-link" href="./drawings.html">Drawings</a>
+        </ul>
+      </div>
+    </div>
+    <div class="drawigns">
+      <!-- Slideshow container A -->
+      <div class="slideshow-container">
+
+        <!-- Full-width images with number and caption text -->
+        <div class="mySlides fade">
+          <img class="img-slide" src="./images/1/image (1).jpg">
+        </div>
+
+        <div class="mySlides fade">
+          <img class="img-slide" src="./images/1/image (3).jpg">
+        </div>
+
+        <div class="mySlides fade">
+          <img class="img-slide" src="./images/1/image (4).jpg">
+        </div>
+
+        <div class="mySlides fade">
+          <img class="img-slide" src="./images/1/image (10).jpg">
+        </div>
+
+        <div class="mySlides fade">
+          <img class="img-slide" src="./images/1/image (14).jpg">
+        </div>
+
+        <div class="mySlides fade">
+          <img class="img-slide" src="./images/1/image (16).jpg">
+        </div>
+
+        <div class="mySlides fade">
+          <img class="img-slide" src="./images/1/image (21).jpg">
+        </div>
+
+        <div class="mySlides fade">
+          <img class="img-slide" src="./images/1/image (25).jpg">
+        </div>
+        <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      </div>
+      <br>
+      <!-- The dots/circles -->
+      <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+        <span class="dot" onclick="currentSlide(5)"></span>
+        <span class="dot" onclick="currentSlide(6)"></span>
+        <span class="dot" onclick="currentSlide(7)"></span>
+        <span class="dot" onclick="currentSlide(8)"></span>
+        <span class="dot" onclick="currentSlide(9)"></span>
+      </div>
+
+      <div class="slideshow-containerb">
+
+        <!-- Full-width images with number and caption text -->
+        <div class="mySlidesb fade">
+          <img class="img-slide" src="./images/2/image (2).jpg">
+        </div>
+
+        <div class="mySlidesb fade">
+          <img class="img-slide" src="./images/2/image (9).jpg">
+        </div>
+
+        <div class="mySlidesb fade">
+          <img class="img-slide" src="./images/2/image (13).jpg">
+        </div>
+
+        <div class="mySlidesb fade">
+          <img class="img-slide" src="./images/2/image (15).jpg">
+        </div>
+
+        <div class="mySlidesb fade">
+          <img class="img-slide" src="./images/2/image (18).jpg">
+        </div>
+
+        <div class="mySlidesb fade">
+          <img class="img-slide" src="./images/2/image (19).jpg">
+        </div>
+
+        <div class="mySlidesb fade">
+          <img class="img-slide" src="./images/2/image (20).jpg">
+        </div>
+
+        <div class="mySlidesb fade">
+          <img class="img-slide" src="./images/2/image (22).jpg">
+        </div>
+
+        <div class="mySlidesb fade">
+          <img class="img-slide" src="./images/2/image (23).jpg">
+        </div>
+        <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlidesb(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlidesb(1)">&#10095;</a>
+      </div>
+      <br>
+
+      <!-- The dots/circles -->
+      <div style="text-align:center">
+        <span class="dotb" onclick="currentSlideb(1)"></span>
+        <span class="dotb" onclick="currentSlideb(2)"></span>
+        <span class="dotb" onclick="currentSlideb(3)"></span>
+        <span class="dotb" onclick="currentSlideb(4)"></span>
+        <span class="dotb" onclick="currentSlideb(5)"></span>
+        <span class="dotb" onclick="currentSlideb(6)"></span>
+        <span class="dotb" onclick="currentSlideb(7)"></span>
+        <span class="dotb" onclick="currentSlideb(8)"></span>
+        <span class="dotb" onclick="currentSlideb(9)"></span>
+      </div>
+
+
+    </div>
+
+    <footer class="footer">
+      <a class="mail" href="mailto:niloufar.fuladi@aol.com"><i class="fa">&#xf0e0; </i>
+        niloufar.fuladi@aol.com</a>
+      <a class="mail" href="mailto:Niloufar.fuladi@u-pem.fr"><i class="fa">&#xf0e0; </i>
+        Niloufar.fuladi@u-pem.fr</a>
+    </footer>
+  </div>
+  <script>
+    let slideIndex = 1;
+    showSlides(slideIndex);
+
+    // Next/previous controls
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+
+    // Thumbnail image controls
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+
+    function showSlides(n) {
+      let i;
+      let slides = document.getElementsByClassName("mySlides");
+      let dots = document.getElementsByClassName("dot");
+      if (n > slides.length) { slideIndex = 1 }
+      if (n < 1) { slideIndex = slides.length }
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex - 1].style.display = "block";
+      dots[slideIndex - 1].className += " active";
+    }
+  </script>
+  <script>
+    let slideIndexb = 1;
+    showSlidesb(slideIndexb);
+
+    // Next/previous controls
+    function plusSlidesb(n) {
+      showSlidesb(slideIndexb += n);
+    }
+
+    // Thumbnail image controls
+    function currentSlideb(n) {
+      showSlidesb(slideIndexb = n);
+    }
+
+    function showSlidesb(n) {
+      let ib;
+      let slidesb = document.getElementsByClassName("mySlidesb");
+      let dotsb = document.getElementsByClassName("dotb");
+      if (n > slidesb.length) { slideIndexb = 1 }
+      if (n < 1) { slideIndexb = slidesb.length }
+      for (ib = 0; ib < slidesb.length; ib++) {
+        slidesb[ib].style.display = "none";
+      }
+      for (ib = 0; ib < dotsb.length; ib++) {
+        dotsb[ib].className = dotsb[ib].className.replace(" active", "");
+      }
+      slidesb[slideIndexb - 1].style.display = "block";
+      dotsb[slideIndexb - 1].className += " active";
+    }
+  </script>
+</body>
+
+</html>
