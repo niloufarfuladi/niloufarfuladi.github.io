@@ -137,12 +137,11 @@ a:active {
 .container {
   width: 100%;
   min-height: 140vh;
-  background-color: white;
+  background-color: black;
   display: flex;
   flex-direction: column;
 }
 .my-header {
-  background-color: black;
   width: 100%;
   min-height: 12vh;
   color: white;
