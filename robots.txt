@@ -1,0 +1,17 @@
+User-agent: Googlebot-Image
+Disallow: /images/1/image(1).png
+Disallow: /images/1/image(2).png
+Disallow: /images/1/image(3).png
+Disallow: /images/1/image(4).png
+Disallow: /images/1/image(5).png
+Disallow: /images/1/image(6).png
+Disallow: /images/1/image(7).png
+Disallow: /images/1/image(8).png
+Disallow: /images/2/image(9).png
+Disallow: /images/2/image(10).png
+Disallow: /images/2/image(11).png
+Disallow: /images/2/image(12).png
+Disallow: /images/2/image(13).png
+Disallow: /images/2/image(14).png
+Disallow: /images/2/image(15).png
+Disallow: /images/2/image(16).png

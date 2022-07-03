@@ -295,6 +295,7 @@ h1 a {
   right: 0;
   margin-left: auto;
   margin-right: auto;
+  pointer-events: none;
 }
 
 /* my code */
