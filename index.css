@@ -185,7 +185,7 @@ h1 a {
 
 .main {
   width: 100%;
-  min-height: 100vh;
+  min-height: 150vh;
   display: flex;
   flex-direction: row;
 }
@@ -271,7 +271,7 @@ h2 {
     padding: 0px 15px;
   }
   .main {
-    min-height: 70vh;
+    min-height: 130vh;
   }
   .container {
     min-height: 110vh;
@@ -285,7 +285,7 @@ h2 {
 
   .main {
     width: 100%;
-    min-height: 150vh;
+    min-height: 130vh;
     display: flex;
     flex-direction: column-reverse;
     align-items: center;
