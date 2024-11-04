@@ -240,6 +240,13 @@ h1 a {
   align-items: flex-start;
   text-align: justify;
 }
+.shadow ul {
+  list-style-type: none;
+}
+.shadow ul li {
+  margin: 5px 0px 10px 0px;
+}
+
 h2 {
   font-weight: bold;
   margin-top: 15px;
@@ -282,6 +289,12 @@ h2 {
   .container {
     min-height: 200vh;
   }
+  .text-1,
+  .text-2,
+  .text-3 {
+    margin: 0px 0px 5px 0px;
+    line-height: 25px;
+  }
 
   .main {
     width: 100%;
@@ -307,7 +320,7 @@ h2 {
   }
 
   .shadow {
-    padding: 20px 10px 10px 20px;
+    padding: 20px 10px 10px 10px;
     min-height: 50vh;
     border-radius: 10px;
     display: flex;
@@ -319,6 +332,9 @@ h2 {
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(3.4px);
     -webkit-backdrop-filter: blur(3.4px);
+  }
+  .shadow ul {
+    padding: 0px 0px 0px 8px;
   }
 }
 
