@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Tiro+Gurmukhi&display=swap");
+@import url("https://fon ts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap");
+
 * {
   box-sizing: border-box;
 }
@@ -90,6 +92,23 @@ video {
   font: inherit;
   vertical-align: baseline;
 }
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto Condensed", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  text-align: justify;
+}
 /* HTML5 display-role reset for older browsers */
 article,
 aside,
@@ -106,7 +125,7 @@ section {
 }
 body {
   line-height: 1;
-  font-family: "Nunito", sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
 }
 ul {
   padding: 0px 0px 0px 20px;
