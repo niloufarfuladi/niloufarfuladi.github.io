@@ -265,13 +265,13 @@ h1 a {
 .active,
 .dot:hover,
 .dotb:hover {
-  background-color: #717171;
+  background-color: #363636;
 }
 
 /* Fading animation */
 .fade {
   animation-name: fade;
-  animation-duration: 1.5s;
+  animation-duration: 1.2s;
 }
 
 @keyframes fade {
