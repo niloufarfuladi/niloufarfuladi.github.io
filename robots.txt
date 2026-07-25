@@ -15,4 +15,3 @@ Disallow: /images/2/image(13).png
 Disallow: /images/2/image(14).png
 Disallow: /images/2/image(15).png
 Disallow: /images/2/image(16).png
-
