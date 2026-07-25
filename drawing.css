@@ -191,7 +191,8 @@ h1 a {
   position: relative;
   margin: auto;
 }
-.slideshow-containerb {
+.slideshow-containerb,
+.slideshow-containerc {
   max-width: 1000px;
   padding: 20px;
   position: relative;
@@ -201,7 +202,8 @@ h1 a {
 
 /* Hide the images by default */
 .mySlides,
-.mySlidesb {
+.mySlidesb,
+.mySlidesc {
   display: none;
   min-height: 50vh;
   position: relative;
@@ -251,7 +253,8 @@ h1 a {
 
 /* The dots/bullets/indicators */
 .dot,
-.dotb {
+.dotb,
+.dotc {
   cursor: pointer;
   height: 20px;
   width: 20px;
@@ -264,7 +267,8 @@ h1 a {
 
 .active,
 .dot:hover,
-.dotb:hover {
+.dotb:hover,
+.dotc:hover {
   background-color: #363636;
 }
 
@@ -312,7 +316,8 @@ h1 a {
   .container {
     min-height: 200vh;
   }
-  .slideshow-containerb {
+  .slideshow-containerb,
+  .slideshow-containerc {
     margin-top: 60px;
   }
   .next {
